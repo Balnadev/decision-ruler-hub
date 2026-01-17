@@ -3,27 +3,28 @@ node_modules/
 .pnp
 .pnp.js
 .yarn/install-state.gz
+.yarn/cache
 
-# Build outputs
+# Build
 dist/
 dist-ssr/
 *.local
 
-# Environment variables
+# Environment
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Log files
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Editor directories and files
+# Editor
 .vscode/
 .idea/
 *.suo
@@ -32,7 +33,7 @@ lerna-debug.log*
 *.sln
 *.sw?
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
 
@@ -40,24 +41,11 @@ Thumbs.db
 .cache/
 node_modules/.cache/
 
-# Security sensitive files
+# Security
 secrets.json
 *.pem
 *.key
 *.crt
 
-# Testing
-coverage/
-.nyc_output/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Output of 'npm pack'
-*.tgz
-
-# Optional REPL history
-.node_repl_history
+# TypeScript
+*.tsbuildinfo
