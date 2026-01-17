@@ -40,7 +40,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/decision-ruler/hub-v1.4.6"
+    "url": "https://github.com/Balnadev/decision-ruler-hub"
   },
   "engines": {
     "node": ">=18.0.0"
